@@ -62,5 +62,5 @@ WantedBy=multi-user.target
 systemctl enable MTProxy
 systemctl start MTProxy
 clear
-echo "你的专属MTProxy链接为:"
+echo "你的专属MTProxy链接为(((国外服务器一定注意校对国内时间，否则可能连接不上))):"
 echo -e "\e[1;31m tg://proxy?server=$ip&port=$port&secret=$secret \e[0m"
