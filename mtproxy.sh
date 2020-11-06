@@ -98,7 +98,7 @@ Download_multi(){
 }
 Service_mtproxy(){
 	if [[ ${release} = "centos" ]]; then
-		if ! wget --no-check-certificate "https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/service/mtproxy_centos" -O /etc/init.d/mtproxy; then
+		if ! wget --no-check-certificate "https://raw.githubusercontent.com/jincon/PyShcode/master/mtproxy_centos" -O /etc/init.d/mtproxy; then
 			echo -e "${Error} MTProxy服务 管理脚本下载失败 !"
 			rm -rf "${file}"
 			exit 1
